@@ -1,0 +1,261 @@
+{
+  "category": "FAE_FOLKLORE",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/kikimora",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "kikimora",
+    "name": "Kikimora",
+    "aliases": [
+      {
+        "name": "Kikimora",
+        "language": "Russian",
+        "meaning": "Female house spirit"
+      },
+      {
+        "name": "Shishimora",
+        "language": "Russian",
+        "region": "Various regions"
+      }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "ENTITY_SPIRIT",
+    "tags": [
+      "slavic",
+      "house-spirit",
+      "female",
+      "mischief",
+      "household",
+      "folklore",
+      "russian"
+    ],
+    "status": "traditional",
+    "description": {
+      "summary": "A female Slavic house spirit, often malevolent, who inhabits homes and engages in household mischief if the house is dirty or the family disrespectful. She helps if the house is kept clean.",
+      "full": "The Kikimora is a female household spirit from Slavic folklore, particularly Russian traditions. Described as a small old woman, often hunched with chicken legs in some versions, she is considered the wife or counterpart of the Domovoi (male house spirit). The Kikimora's behavior depends entirely on the state of the household: in clean, well-kept homes with respectful families, she may be helpful, but in messy or discordant households, she becomes increasingly malicious. Her activities include tickling children at night, breaking dishes, tangling yarn, and making mysterious noises. She is rarely seen, heard more than seen, and often depicted as crooked or deformed."
+    },
+    "etymology": {
+      "origin": "Russian folklore, exact etymology uncertain but likely related to words for night spirits or marsh creatures",
+      "meaning": "Female house spirit or night hag"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "FAE_FOLKLORE",
+      "type": "ENTITY_SPIRIT",
+      "subtype": "House Spirit",
+      "variant": "Slavic"
+    },
+    "related_phenomena": [
+      {
+        "id": "domovoi",
+        "name": "Domovoi",
+        "relationship": "counterpart",
+        "description": "Male house spirit, husband to Kikimora"
+      },
+      {
+        "id": "baba-yaga",
+        "name": "Baba Yaga",
+        "relationship": "similar",
+        "description": "Another female figure in Slavic folklore with chicken legs"
+      },
+      {
+        "id": "brownie",
+        "name": "Brownie",
+        "relationship": "similar",
+        "description": "Scottish house spirit with similar behavior patterns"
+      },
+      {
+        "id": "kobold",
+        "name": "Kobold",
+        "relationship": "similar",
+        "description": "Germanic house spirit"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": [
+        {
+          "feature": "Size",
+          "description": "Small, diminutive figure",
+          "frequency": "always"
+        },
+        {
+          "feature": "Age",
+          "description": "Old woman, elderly appearance",
+          "frequency": "common"
+        },
+        {
+          "feature": "Posture",
+          "description": "Hunched, crooked, deformed",
+          "frequency": "common"
+        },
+        {
+          "feature": "Chicken legs",
+          "description": "Bird-like legs in some regional variants",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Visibility",
+          "description": "Rarely seen, heard more than seen",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Small, elderly female figure, often described as hunched or deformed. Some versions give her chicken legs similar to Baba Yaga's hut."
+    },
+    "abilities": [
+      {
+        "ability": "Household mischief",
+        "description": "Breaks dishes, tangles yarn, hides objects",
+        "frequency": "common",
+        "evidence_level": "folkloric"
+      },
+      {
+        "ability": "Night disturbances",
+        "description": "Tickles children at night, makes noises",
+        "frequency": "common",
+        "evidence_level": "folkloric"
+      },
+      {
+        "ability": "Invisibility",
+        "description": "Can remain unseen while causing disturbances",
+        "frequency": "common",
+        "evidence_level": "folkloric"
+      },
+      {
+        "ability": "Helpful domestic work",
+        "description": "Assists with household chores when pleased",
+        "frequency": "occasional",
+        "evidence_level": "folkloric"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "habitat_preference": [
+        "homes",
+        "behind stoves",
+        "cellars",
+        "attics"
+      ],
+      "patterns": [
+        "Behavior depends on household cleanliness",
+        "Helpful to respectful, clean families",
+        "Malicious to messy, discordant families",
+        "Active at night when family sleeps",
+        "Makes noises to signal presence"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Russian and Slavic regions, part of broader Eastern European house spirit traditions",
+      "continents": ["Europe", "Asia"],
+      "countries": ["Russia", "Ukraine", "Belarus", "Poland"],
+      "regions": [
+        "European Russia",
+        "Siberia",
+        "Ukraine",
+        "Belarus"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Christian",
+        "circa": true,
+        "source": "Slavic pagan traditions"
+      },
+      "status": "Traditional folklore, still present in Russian children's stories"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Slavic pagan traditions, predating Christianity. Part of broader house spirit belief system common throughout Eastern Europe.",
+      "earliest_accounts": "Pre-Christian Slavic folklore, exact origins uncertain",
+      "folklore_connections": "Connected to other Slavic household spirits (Domovoi, Dvorovoi) and possibly to swamp spirits or unquiet dead in some traditions."
+    },
+    "origins_variants": [
+      {
+        "theory": "Stillborn child",
+        "description": "Some traditions say Kikimora originates from stillborn or unbaptized children"
+      },
+      {
+        "theory": "Improperly buried",
+        "description": "Spirits of those not given proper burial rites"
+      },
+      {
+        "theory": "Swamp spirit",
+        "description": "Originally a swamp or marsh spirit who moved indoors"
+      }
+    ],
+    "modern_era": "Remains part of Russian folklore collections and children's stories. Featured in modern retellings of Slavic mythology."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Russian house spirit traditions",
+        "Slavic domestic mythology",
+        "Eastern European folk beliefs"
+      ],
+      "beliefs": "Kikimora represents the importance of maintaining a clean, harmonious household. Her behavior serves as moral guidance for proper domestic conduct.",
+      "stories": [
+        "Tales of Kikimora tormenting lazy housewives",
+        "Stories of her tickling children who won't sleep",
+        "Accounts of tangled yarn and broken dishes"
+      ]
+    },
+    "cultural_sensitivity": {
+      "note": "CULTURAL SENSITIVITY: Slavic cultural tradition. Part of living cultural heritage.",
+      "respect_guidelines": "Treat as genuine cultural tradition, not mere superstition. Consult Slavic cultural experts for authentic interpretation."
+    },
+    "popular_culture": {
+      "literature": [
+        "Russian folklore collections",
+        "Children's story anthologies",
+        "Slavic mythology compendiums"
+      ],
+      "modern_appearances": [
+        "Fantasy role-playing games",
+        "Slavic-inspired fantasy literature"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "slavic-folklore",
+      "type": "book",
+      "title": "Russian Fairy Tales",
+      "authors": ["Aleksandr Afanasyev"],
+      "note": "Classic collection of Russian folklore"
+    },
+    {
+      "id": "folk-spirits",
+      "type": "reference",
+      "title": "Slavic House Spirits and Domestic Mythology",
+      "note": "Academic reference on Eastern European folk beliefs"
+    }
+  ]
+}
