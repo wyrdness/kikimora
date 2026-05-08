@@ -1,292 +1,178 @@
 # Kikimora
 
-> *"Keep your house clean, or the Kikimora will tangle your yarn and tickle your children at night."*
+> A female house spirit of Slavic — especially Russian — folklore, often paired with the male domovoi, who keeps the household clean and reasonable when respected but punishes lazy or neglectful families with broken dishes, tangled yarn, sleepless nights, and the tickling of children.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `kikimora` |
-| **Category** | FAE_FOLKLORE / ENTITY_SPIRIT |
-| **Classification** | House Spirit / Slavic |
-| **First Recorded** | Pre-Christian Slavic traditions |
-| **Primary Region** | Russia, Eastern Europe |
-| **Status** | Traditional folklore |
+| **Category** | FAE_FOLKLORE |
+| **Subcategory** | Slavic house spirit (and swamp variant) |
+| **First recorded** | 1500s |
+| **Primary range** | Concentrated in East Slavic territory — Russia, Belarus, parts of Ukraine and Poland — with related figures across the wider Slavic world |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The Kikimora is a female household spirit from Slavic folklore, particularly prominent in Russian traditions. Described as a small old woman, often hunched with chicken legs in some versions, she is considered the wife or counterpart of the Domovoi (male house spirit).
-
-The Kikimora's behavior depends entirely on the state of the household: in clean, well-kept homes with respectful families, she may be helpful, but in messy or discordant households, she becomes increasingly malicious. Her activities include tickling children at night, breaking dishes, tangling yarn, and making mysterious noises. She is rarely seen, heard more than seen, and often depicted as crooked or deformed.
-
-The Kikimora serves as a cautionary figure in Slavic folklore, emphasizing the importance of maintaining a clean, harmonious household and treating domestic spirits with respect.
+Kikimora (Russian: кикимора) is a female household spirit of Slavic mythology, most fully attested in Russian, Belarusian, and northern East-Slavic folk traditions. She is closely linked to the male domovoi (the standard house spirit), with whom she is often described as wife or counterpart. Folk tradition distinguishes two main forms. The domestic kikimora lives behind the stove or in the cellar of a Russian peasant house: in an orderly home she helps with chickens and housework; in a slovenly or quarrelsome household she pinches the family's hens, breaks crockery, tangles yarn left out at night, whistles in dark rooms, sits on sleepers' chests, and tickles children awake. The swamp kikimora (Russian: кикимора болотная), by contrast, is married to the leshy (forest spirit) and lives in mires and bogs, where she is dangerous to travelers and may steal small children. She is depicted variously as a hunched old woman with chicken legs, a tiny ugly hag with disheveled hair clad in moss and bark, or — in some traditions — a beautiful young girl. The name's -mora element is cognate with Proto-Slavic morà ('nightly spirit, bad dream') and ultimately with the same Indo-European root behind English 'nightmare', and several scholars treat the kikimora as a Slavic relative of the broader European zmora / mara complex of nocturnal pressing-spirits. Belief was particularly strong among the East Slavic peasantry into the late 19th century and is still attested ethnographically in some rural areas.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Кикимора | Russian | house spirit / nightly spirit |
+| Кікімара | Belarusian |  |
+| Kikimora domowa | Polish | household kikimora |
+| Kikimora bolotnaya | Russian / Russia | swamp kikimora — the wetland-dwelling variant married to the leshy |
+| Shishimora | Russian / northern Russia | regional variant |
 
-### Primary Name
-- **Kikimora** — Female house spirit in Russian folklore, possibly related to words for night spirits or marsh creatures.
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Kikimora | Russian | Female house spirit |
-| Shishimora | Russian (regional variants) | Alternate spelling/pronunciation |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: FAE_FOLKLORE
-├── Type: ENTITY_SPIRIT
-├── Subtype: House Spirit
-└── Variant: Slavic
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Domovoi](/domovoi) | Counterpart | Male house spirit, husband to Kikimora |
-| [Baba Yaga](/baba-yaga) | Similar | Another female figure with chicken legs |
-| [Brownie](/brownie) | Similar | Scottish house spirit with similar behavior |
+- **Origin**: First element 'kiki-' is of disputed origin (proposed connections include Finnic borrowings and onomatopoeic 'crowing/clucking'). The second element '-mora' derives from Proto-Slavic *morà 'nightly spirit, bad dream', cognate with Old English mare ('incubus') — the source of English 'nightmare' — and French cauchemar.
+- **Meaning**: Approximately 'household nightmare-spirit' or 'home-nighthag', though the figure is ambivalent rather than purely malign.
+- **First use**: Attested in early-modern East Slavic ethnographic and ecclesiastical sources; most fully recorded in 19th-century Russian folklore collections.
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Domovoi](../domovoi/) — _counterpart_: Male Slavic house spirit, often paired with the kikimora as her husband
+- [Leshy](../leshy/) — _related_: Slavic forest spirit, husband of the swamp kikimora in some traditions
+- [Zmora / Mara](../zmora/) — _similar_: Wider Slavic complex of nocturnal pressing-spirits etymologically linked to kikimora's '-mora'
+- [Rusalka](../rusalka/) — _related_: Slavic water-spirit, another major female folkloric figure
+- [Brownie](../brownie/) — _similar_: British house spirit with similarly conditional helpful/mischievous behavior
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description |
-|-----------|-------------|
-| **Size** | Small, diminutive |
-| **Age** | Elderly, old woman |
-| **Posture** | Hunched, crooked, deformed |
-| **Appearance** | Rarely seen, heard more than seen |
+- **Morphology**: Small, gendered female, often deformed in the domestic form; the swamp form is more obviously monstrous. Rarely described in detail because she is more often heard than seen.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Elderly appearance | Small old woman figure | Always |
-| Hunched posture | Crooked, deformed body | Common |
-| Chicken legs | Bird-like legs in some versions | Occasional |
-| Invisibility | Rarely visible, mostly heard | Common |
+|---|---|---|
+| Diminutive, hunched form | Most often a small, ugly, hunched old woman with disheveled hair and moss/grass clothing | common |
+| Chicken legs | Some accounts give her chicken or birdlike legs (a feature shared with Baba Yaga's hut) | occasional |
+| Pointed nose | Sharp, pointed nose and a thin frame | common |
+| Glowing eyes | Eyes that glow at night, especially in swamp variants | occasional |
+| Beautiful-girl form (rare) | Some traditions allow her to appear as a beautiful young woman | rare |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Household mischief | Breaks dishes, tangles yarn, hides objects | Folkloric |
-| Night disturbances | Tickles children at night, makes noises | Folkloric |
-| Invisibility | Can remain unseen while causing disturbances | Folkloric |
-| Helpful domestic work | Assists with chores when pleased | Folkloric |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Invisibility / heard-not-seen | Generally unseen; her presence is registered through household sounds — whistling, footsteps, the breaking of crockery | always | folklore |
+| Tending chickens and housework | In an orderly home she may quietly help with poultry and chores | occasional | folklore |
+| Mischief and household sabotage | Tangles yarn left out at night, whistles, breaks dishes, tickles children, harasses laundry | common | folklore |
+| Sleep paralysis / chest-pressing (mora element) | In some accounts she sits on sleepers and causes nightmares, linking her to the broader Slavic mora tradition | occasional | folklore |
+| Ill omen | Her appearance, especially in unusual visibility, is regarded as foretelling household misfortune or a death | common | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Nocturnal
-- **Disposition**: Variable (depends on household conditions)
-- **Habitat Preference**: Homes (behind stoves, cellars, attics)
-- **Behavior Triggers**:
-  - **Helpful**: Clean house, respectful family life
-  - **Malicious**: Messy house, family discord
-
----
-
-## Geographic Distribution
-
-### Primary Range
-
-Russia and Eastern European Slavic regions, part of broader house spirit traditions throughout Eastern Europe.
-
-### Cultural Regions
-
-| Region | Presence | Notes |
-|--------|----------|-------|
-| European Russia | Strong | Primary traditional location |
-| Siberia | Moderate | Russian settlement regions |
-| Ukraine | Moderate | Part of Slavic folk tradition |
-| Belarus | Moderate | Eastern European variants |
-| Poland | Limited | Related Slavic traditions |
+- **Activity**: nocturnal
+- **Disposition**: variable
+- **Social structure**: pair
+- **Habitat**: behind the stove, cellars and storerooms, attic spaces, swamps and mires (for the swamp kikimora)
+- **Diet**: Receives small offerings; otherwise none documented
 
 ---
+## Distribution
 
-## Origins & Folklore
+Concentrated in East Slavic territory — Russia, Belarus, parts of Ukraine and Poland — with related figures across the wider Slavic world.
 
-### Cultural Roots
-
-Slavic pagan traditions predating Christianity. The Kikimora is part of a broader house spirit belief system common throughout Eastern Europe, representing domestic forces that must be respected and appeased.
-
-### Origin Theories
-
-Different traditions offer various explanations for how Kikimoras come to be:
-
-1. **Stillborn Child**
-   Some traditions say Kikimora originates from stillborn or unbaptized children who become house spirits.
-
-2. **Improperly Buried**
-   Spirits of those not given proper burial rites, forced to haunt domestic spaces.
-
-3. **Swamp Spirit**
-   Originally a swamp or marsh spirit who moved indoors, explaining her sometimes malevolent nature.
-
-### Traditional Beliefs
-
-The Kikimora represents the importance of maintaining a clean, harmonious household. Her behavior serves as moral guidance for proper domestic conduct:
-
-- **Clean house = Helpful Kikimora**: Will assist with chores, protect the home
-- **Messy house = Malicious Kikimora**: Will break things, cause disturbances, torment family
 
 ---
+## Historical Timeline
 
-## Behavior & Activities
+| Date | Event | Significance |
+|---|---|---|
+| 1500s | Russian Orthodox church writings begin denouncing folk worship of household spirits including figures glossed as kikimora | Earliest documentary references |
+| 1782-01-01 | Mikhail Chulkov's 'Slovar' russkikh sueverii' (Dictionary of Russian Superstitions) describes the kikimora | First major printed Russian reference |
+| 1869-01-01 | Alexander Afanasyev's 'Poetic Views of the Slavs on Nature' provides extensive treatment of the kikimora alongside other house spirits | Anchors the academic Russian folklore canon |
+| 1909-12-12 | Premiere of Anatoly Lyadov's symphonic poem 'Kikimora' (Op. 63) in St. Petersburg | Major artistic embedding of the figure in Russian classical music |
+| 1995-01-01 | Linda J. Ivanits's 'Russian Folk Belief' (Routledge) gives a major English-language synthesis of kikimora lore | Standard English-language reference |
 
-### Helpful Behaviors (Clean Households)
-- Assists with household chores
-- Watches over children
-- Protects the home
-- Works quietly at night
+## Evidence
 
-### Malicious Behaviors (Messy Households)
-- Breaks dishes and household items
-- Tangles yarn and thread
-- Tickles children at night to keep them awake
-- Makes disturbing noises
-- Hides objects
-- Causes general mischief and chaos
+### Documentary
 
-### Signs of Presence
-- Mysterious noises at night
-- Objects moved or hidden
-- Tangled yarn or thread
-- Children waking with complaints of tickling
-- Unexplained household breakage
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Afanasyev — Poetic Views of the Slavs on Nature (1865–69) | 1869 | Comprehensive 19th-century Russian folkloric treatment including kikimora. | verified |
+| Ivanits — Russian Folk Belief (1989/1995) | 1989 | Standard English-language synthesis of Russian folk-religion including the kikimora. | verified |
 
 ---
+## Theories & Explanations
 
-## Relationship with Domovoi
+### Paranormal / Cryptozoological
 
-The Kikimora is often described as the wife or female counterpart of the Domovoi, the male house spirit in Slavic folklore:
+**Living household spirit** _(Slavic folk-religious tradition)_
 
-- **Domovoi**: Male, guardian of the household, generally protective
-- **Kikimora**: Female, more temperamental, behavior depends on household conditions
-- **Relationship**: Married or partnered in many traditions
-- **Complementary roles**: Together they represent the complete domestic spiritual ecosystem
+Within Slavic folk religion, the kikimora is a real spirit whose disposition mirrors the moral and ritual cleanliness of the household.
 
----
+### Scientific
 
-## Cultural Significance
+**Sleep paralysis explanation (mora element)** _(Modern sleep-medicine and folklore researchers)_
 
-### Historical Context
+The chest-pressing aspects of kikimora belief, like the wider Slavic mora and Germanic mare traditions, plausibly index real sleep paralysis experiences.
 
-The Kikimora reflects pre-Christian Slavic beliefs about the spiritual forces inhabiting domestic spaces. These beliefs emphasized:
-- Respect for the home and hearth
-- Importance of cleanliness and order
-- Spiritual consequences of household management
+### Skeptical
 
-### Modern Context
+**Cultural moral coding** _(Linda J. Ivanits, W. F. Ryan)_
 
-The Kikimora remains part of:
-- Russian folklore collections
-- Children's stories and fairy tales
-- Cultural heritage education
-- Slavic mythology studies
+Kikimora belief is read by folklorists as a moral pedagogy enforcing household tidiness, marital harmony, child discipline, and care for poultry and grain stores.
 
-### ⚠️ Cultural Sensitivity Note
 
-The Kikimora is part of living Slavic cultural heritage, not mere superstition. These traditions should be treated with respect as genuine cultural beliefs that continue to inform Eastern European folklore and cultural identity.
+## Popular Culture
+
+**Literature**: Andrzej Sapkowski — The Witcher series (Polish, 1986–present); Linda J. Ivanits — Russian Folk Belief (1989)
+
+**Film / TV**: The Witcher (Netflix, 2019– ) — kikimora as creature antagonist; Various Soviet-era Russian animated adaptations of folk tales
+
+**Games**: The Witcher 3: Wild Hunt (CD Projekt Red, 2015) — kikimore as iconic monster; Russian and Polish indie folk-horror games
+
+**Music**: Anatoly Lyadov — Kikimora, Op. 63 (1909, symphonic poem)
 
 ---
+## Research
 
-## In Popular Culture
+### Researchers
 
-### Literature
-- Russian fairy tale collections
-- Slavic mythology compendiums
-- Children's folklore anthologies
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Alexander N. Afanasyev | Russian folklorist (19th c.) | Foundational compilation of Russian folklore including house spirits | 1850s–1871 |
+| Dmitri K. Zelenin | Russian/Soviet ethnographer | 20th-century synthesis of East Slavic folk belief | 1900s–1950s |
+| Linda J. Ivanits | Pennsylvania State University | Major English-language reference on Russian folk belief | 1980s–2000s |
+| W. F. Ryan | Warburg Institute, University of London | Scholarship on Russian magic and folk belief contextualizing the kikimora | 1980s–2000s |
 
-### Modern Media
-- Fantasy role-playing games
-- Slavic-inspired fantasy literature
-- Cultural education materials
+### Organizations
 
----
+- [Russian Geographical Society — Ethnographic Branch](https://www.rgo.ru) — Historical and contemporary Russian ethnography
+- [Institute of Slavic Studies (Russian Academy of Sciences)](https://inslav.ru) — Slavic folklore and mythology research
 
-## Related Spirits
-
-### Slavic House Spirits
-- **[Domovoi](/domovoi)** — Male house spirit, Kikimora's counterpart
-- **Dvorovoi** — Yard spirit
-- **Bannik** — Bathhouse spirit
-
-### Similar Creatures in Other Cultures
-- **[Brownie](/brownie)** — Scottish house spirit
-- **Kobold** — Germanic house spirit
-- **Tomte** — Scandinavian house spirit
+Slavic-folklore studies continue to investigate house-spirit complexes ethnographically; comparative work links kikimora to wider European nightmare and house-spirit traditions.
 
 ---
+## Sources
 
-## API Reference
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-Machine-readable data is available in [`api.json`](api.json).
 
-### Data Access
+## How to Report a Sighting
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const kikimora = await wyrd.getPhenomenon('kikimora');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/kikimora/main/api.json
-```
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-- Afanasyev, A. *Russian Fairy Tales* — Classic collection of Russian folklore
-- Academic references on Slavic house spirits and domestic mythology
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

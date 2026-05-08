@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/kikimora",
     "maintainers": [
       {
@@ -16,111 +16,246 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "kikimora",
     "name": "Kikimora",
-    "aliases": [],
+    "aliases": [
+      { "name": "Кикимора", "language": "Russian", "meaning": "house spirit / nightly spirit" },
+      { "name": "Кікімара", "language": "Belarusian" },
+      { "name": "Kikimora domowa", "language": "Polish", "meaning": "household kikimora" },
+      { "name": "Kikimora bolotnaya", "language": "Russian", "region": "Russia", "meaning": "swamp kikimora — the wetland-dwelling variant married to the leshy" },
+      { "name": "Shishimora", "language": "Russian", "region": "northern Russia", "meaning": "regional variant" }
+    ],
     "category": "FAE_FOLKLORE",
-    "subcategory": "House Spirit",
+    "subcategory": "Slavic house spirit (and swamp variant)",
     "tags": [
+      "slavic",
+      "russia",
       "folklore",
-      "mythology"
+      "house-spirit",
+      "domovoi",
+      "leshy",
+      "swamp",
+      "nightmare"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Kikimora is a female household spirit from Slavic folklore, particularly prominent in Russian traditions.",
-      "full": "The Kikimora is a female household spirit from Slavic folklore, particularly prominent in Russian traditions. Described as a small old woman, often hunched with chicken legs in some versions, she is considered the wife or counterpart of the Domovoi (male house spirit). The Kikimora's behavior depends entirely on the state of the household: in clean, well-kept homes with respectful families, she may be helpful, but in messy or discordant households, she becomes increasingly malicious. Her activities include tickling children at night, breaking dishes, tangling yarn, and making mysterious noises. She is rarely seen, heard more than seen, and often depicted as crooked or deformed. The Kikimora serves as a cautionary figure in Slavic folklore, emphasizing the importance of maintaining a clean, harmonious household and treating domestic spirits with respect."
+      "summary": "A female house spirit of Slavic — especially Russian — folklore, often paired with the male domovoi, who keeps the household clean and reasonable when respected but punishes lazy or neglectful families with broken dishes, tangled yarn, sleepless nights, and the tickling of children.",
+      "full": "Kikimora (Russian: кикимора) is a female household spirit of Slavic mythology, most fully attested in Russian, Belarusian, and northern East-Slavic folk traditions. She is closely linked to the male domovoi (the standard house spirit), with whom she is often described as wife or counterpart. Folk tradition distinguishes two main forms. The domestic kikimora lives behind the stove or in the cellar of a Russian peasant house: in an orderly home she helps with chickens and housework; in a slovenly or quarrelsome household she pinches the family's hens, breaks crockery, tangles yarn left out at night, whistles in dark rooms, sits on sleepers' chests, and tickles children awake. The swamp kikimora (Russian: кикимора болотная), by contrast, is married to the leshy (forest spirit) and lives in mires and bogs, where she is dangerous to travelers and may steal small children. She is depicted variously as a hunched old woman with chicken legs, a tiny ugly hag with disheveled hair clad in moss and bark, or — in some traditions — a beautiful young girl. The name's -mora element is cognate with Proto-Slavic morà ('nightly spirit, bad dream') and ultimately with the same Indo-European root behind English 'nightmare', and several scholars treat the kikimora as a Slavic relative of the broader European zmora / mara complex of nocturnal pressing-spirits. Belief was particularly strong among the East Slavic peasantry into the late 19th century and is still attested ethnographically in some rural areas."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "First element 'kiki-' is of disputed origin (proposed connections include Finnic borrowings and onomatopoeic 'crowing/clucking'). The second element '-mora' derives from Proto-Slavic *morà 'nightly spirit, bad dream', cognate with Old English mare ('incubus') — the source of English 'nightmare' — and French cauchemar.",
+      "meaning": "Approximately 'household nightmare-spirit' or 'home-nighthag', though the figure is ambivalent rather than purely malign.",
+      "first_use": "Attested in early-modern East Slavic ethnographic and ecclesiastical sources; most fully recorded in 19th-century Russian folklore collections."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "FAE_FOLKLORE",
-      "type": "House Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Domestic spirit",
+      "subtype": "Slavic kikimora",
+      "variant": "Domestic and swamp forms"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "domovoi", "name": "Domovoi", "relationship": "counterpart", "description": "Male Slavic house spirit, often paired with the kikimora as her husband" },
+      { "id": "leshy", "name": "Leshy", "relationship": "related", "description": "Slavic forest spirit, husband of the swamp kikimora in some traditions" },
+      { "id": "zmora", "name": "Zmora / Mara", "relationship": "similar", "description": "Wider Slavic complex of nocturnal pressing-spirits etymologically linked to kikimora's '-mora'" },
+      { "id": "rusalka", "name": "Rusalka", "relationship": "related", "description": "Slavic water-spirit, another major female folkloric figure" },
+      { "id": "brownie", "name": "Brownie", "relationship": "similar", "description": "British house spirit with similarly conditional helpful/mischievous behavior" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Diminutive, hunched form", "description": "Most often a small, ugly, hunched old woman with disheveled hair and moss/grass clothing", "frequency": "common" },
+        { "feature": "Chicken legs", "description": "Some accounts give her chicken or birdlike legs (a feature shared with Baba Yaga's hut)", "frequency": "occasional" },
+        { "feature": "Pointed nose", "description": "Sharp, pointed nose and a thin frame", "frequency": "common" },
+        { "feature": "Glowing eyes", "description": "Eyes that glow at night, especially in swamp variants", "frequency": "occasional" },
+        { "feature": "Beautiful-girl form (rare)", "description": "Some traditions allow her to appear as a beautiful young woman", "frequency": "rare" }
+      ],
+      "morphology": "Small, gendered female, often deformed in the domestic form; the swamp form is more obviously monstrous. Rarely described in detail because she is more often heard than seen."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Invisibility / heard-not-seen", "description": "Generally unseen; her presence is registered through household sounds — whistling, footsteps, the breaking of crockery", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Tending chickens and housework", "description": "In an orderly home she may quietly help with poultry and chores", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Mischief and household sabotage", "description": "Tangles yarn left out at night, whistles, breaks dishes, tickles children, harasses laundry", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Sleep paralysis / chest-pressing (mora element)", "description": "In some accounts she sits on sleepers and causes nightmares, linking her to the broader Slavic mora tradition", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Ill omen", "description": "Her appearance, especially in unusual visibility, is regarded as foretelling household misfortune or a death", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "pair",
+      "habitat_preference": ["behind the stove", "cellars and storerooms", "attic spaces", "swamps and mires (for the swamp kikimora)"],
+      "diet": "Receives small offerings; otherwise none documented",
+      "patterns": [
+        "Behavior tracks the moral state of the household",
+        "Activity peaks at night and during winter",
+        "Tied to spinning, weaving, and the keeping of poultry"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Concentrated in East Slavic territory — Russia, Belarus, parts of Ukraine and Poland — with related figures across the wider Slavic world.",
+      "continents": ["Europe"],
+      "countries": ["Russia", "Belarus", "Ukraine", "Poland"],
+      "regions": ["European Russia", "Northern Russia", "Belarus", "Polesia"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1500s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Early modern East Slavic ecclesiastical and ethnographic mentions; fullest attestation in 18th–19th-century Russian collections"
+      },
+      "peak_activity_periods": [
+        { "period": "1700s–1800s", "description": "Robust East Slavic peasant folklore practice and academic collection" },
+        { "period": "1900s–present", "description": "Cultural-revival appearances in art, music, and popular media" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Christian Slavic domestic religion of household and ancestor spirits, layered with Orthodox Christian moralization in the early modern period.",
+      "earliest_accounts": "Allusions in early modern Russian ecclesiastical denunciations of folk superstition; substantive descriptions in 18th- and 19th-century ethnographies.",
+      "folklore_connections": "Wife/counterpart of the domovoi; sister-figure to bannik (bathhouse spirit), ovinnik (threshing-barn spirit), and dvorovoi (yard spirit). Etymologically connected to the wider Slavic zmora/mara nightmare complex."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1500s", "event": "Russian Orthodox church writings begin denouncing folk worship of household spirits including figures glossed as kikimora", "significance": "Earliest documentary references", "source": "Early modern Russian ecclesiastical sources" },
+      { "date": "1782-01-01", "event": "Mikhail Chulkov's 'Slovar' russkikh sueverii' (Dictionary of Russian Superstitions) describes the kikimora", "significance": "First major printed Russian reference", "source": "M. D. Chulkov, Slovar' russkikh sueverii (1782)" },
+      { "date": "1869-01-01", "event": "Alexander Afanasyev's 'Poetic Views of the Slavs on Nature' provides extensive treatment of the kikimora alongside other house spirits", "significance": "Anchors the academic Russian folklore canon", "source": "A. N. Afanasyev, Poeticheskie vozzreniya slavyan na prirodu (1865–69)" },
+      { "date": "1909-12-12", "event": "Premiere of Anatoly Lyadov's symphonic poem 'Kikimora' (Op. 63) in St. Petersburg", "significance": "Major artistic embedding of the figure in Russian classical music", "source": "Lyadov, A. — Kikimora, Op. 63 (1909)" },
+      { "date": "1995-01-01", "event": "Linda J. Ivanits's 'Russian Folk Belief' (Routledge) gives a major English-language synthesis of kikimora lore", "significance": "Standard English-language reference", "source": "Ivanits, L. J. (1995)" }
+    ],
+    "modern_era": "The kikimora retains a vivid presence in Russian and Polish-language children's literature, film, fantasy fiction (notably Andrzej Sapkowski's Witcher series), and video games (The Witcher 3: Wild Hunt). Folk belief still surfaces ethnographically in rural northern Russia."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "n/a", "latest": "n/a" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "kikimora-evidence-afanasyev",
+        "type": "ethnographic compendium",
+        "name": "Afanasyev — Poetic Views of the Slavs on Nature (1865–69)",
+        "date": "1869",
+        "description": "Comprehensive 19th-century Russian folkloric treatment including kikimora.",
+        "status": "verified",
+        "source": "A. N. Afanasyev"
+      },
+      {
+        "id": "kikimora-evidence-ivanits",
+        "type": "academic monograph",
+        "name": "Ivanits — Russian Folk Belief (1989/1995)",
+        "date": "1989",
+        "description": "Standard English-language synthesis of Russian folk-religion including the kikimora.",
+        "status": "verified",
+        "source": "Ivanits, L. J."
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Living household spirit",
+        "description": "Within Slavic folk religion, the kikimora is a real spirit whose disposition mirrors the moral and ritual cleanliness of the household.",
+        "proponents": ["Slavic folk-religious tradition"],
+        "evidence_cited": ["Continuous ethnographic attestation across centuries", "Ritual responses (sweeping, prayers, offerings) embedded in peasant practice"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Sleep paralysis explanation (mora element)",
+        "description": "The chest-pressing aspects of kikimora belief, like the wider Slavic mora and Germanic mare traditions, plausibly index real sleep paralysis experiences.",
+        "proponents": ["Modern sleep-medicine and folklore researchers"],
+        "evidence_cited": ["Cross-cultural correspondence between sleep-paralysis symptoms and 'pressing spirit' folklore"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural moral coding",
+        "description": "Kikimora belief is read by folklorists as a moral pedagogy enforcing household tidiness, marital harmony, child discipline, and care for poultry and grain stores.",
+        "proponents": ["Linda J. Ivanits", "W. F. Ryan"],
+        "evidence_cited": ["Tight folkloric correlation between disorder and visitation", "Ritual prescriptions for restoring order to expel her"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "East Slavic house-spirit complex (kikimora, domovoi, bannik, ovinnik, dvorovoi)",
+        "Slavic zmora/mara nocturnal-spirit tradition (linked through etymology)"
+      ],
+      "stories": [
+        "The kikimora who tangles yarn left out overnight",
+        "The kikimora who pinches the household chickens",
+        "The swamp kikimora drowning travelers in the mire"
+      ],
+      "beliefs": "An orderly, harmonious house and a properly kept hearth keep her benevolent; cleanliness, prayer, and small offerings (such as a bowl of water or a pinch of bread by the stove) are protective."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "Andrzej Sapkowski — The Witcher series (Polish, 1986–present)",
+        "Linda J. Ivanits — Russian Folk Belief (1989)"
+      ],
+      "film_tv": [
+        "The Witcher (Netflix, 2019– ) — kikimora as creature antagonist",
+        "Various Soviet-era Russian animated adaptations of folk tales"
+      ],
+      "games": [
+        "The Witcher 3: Wild Hunt (CD Projekt Red, 2015) — kikimore as iconic monster",
+        "Russian and Polish indie folk-horror games"
+      ],
+      "music": [
+        "Anatoly Lyadov — Kikimora, Op. 63 (1909, symphonic poem)"
+      ],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Alexander N. Afanasyev", "affiliation": "Russian folklorist (19th c.)", "contribution": "Foundational compilation of Russian folklore including house spirits", "period": "1850s–1871" },
+      { "name": "Dmitri K. Zelenin", "affiliation": "Russian/Soviet ethnographer", "contribution": "20th-century synthesis of East Slavic folk belief", "period": "1900s–1950s" },
+      { "name": "Linda J. Ivanits", "affiliation": "Pennsylvania State University", "contribution": "Major English-language reference on Russian folk belief", "period": "1980s–2000s" },
+      { "name": "W. F. Ryan", "affiliation": "Warburg Institute, University of London", "contribution": "Scholarship on Russian magic and folk belief contextualizing the kikimora", "period": "1980s–2000s" }
+    ],
+    "organizations": [
+      { "name": "Russian Geographical Society — Ethnographic Branch", "url": "https://www.rgo.ru", "focus": "Historical and contemporary Russian ethnography" },
+      { "name": "Institute of Slavic Studies (Russian Academy of Sciences)", "url": "https://inslav.ru", "focus": "Slavic folklore and mythology research" }
+    ],
+    "ongoing_studies": "Slavic-folklore studies continue to investigate house-spirit complexes ethnographically; comparative work links kikimora to wider European nightmare and house-spirit traditions."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-kikimora", "type": "website", "title": "Kikimora", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kikimora", "accessed": "2026-05-07" },
+    { "id": "wh-encyclopedia-kikimora", "type": "website", "title": "Kikimora", "publication": "World History Encyclopedia", "url": "https://www.worldhistory.org/Kikimora/", "accessed": "2026-05-07" },
+    { "id": "ivanits-1989", "type": "book", "title": "Russian Folk Belief", "authors": ["Linda J. Ivanits"], "publication": "M. E. Sharpe", "date": "1989", "isbn": "978-0873324229" },
+    { "id": "ryan-1999", "type": "book", "title": "The Bathhouse at Midnight: An Historical Survey of Magic and Divination in Russia", "authors": ["W. F. Ryan"], "publication": "Pennsylvania State University Press", "date": "1999", "isbn": "978-0271019673" },
+    { "id": "afanasyev-1869", "type": "book", "title": "Poeticheskie vozzreniya slavyan na prirodu (Poetic Views of the Slavs on Nature)", "authors": ["Alexander N. Afanasyev"], "date": "1865-1869" },
+    { "id": "lyadov-1909", "type": "other", "title": "Kikimora, Op. 63 (symphonic poem)", "authors": ["Anatoly Lyadov"], "date": "1909" }
+  ]
 }
